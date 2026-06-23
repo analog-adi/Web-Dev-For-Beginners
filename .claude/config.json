@@ -1,0 +1,30 @@
+{
+  "obsidian_vault_path": "D:\\Obsidian Vault",
+  "learning_domains": [
+    "Web-Dev",
+    "Cybersecurity",
+    "Portfolio"
+  ],
+  "assignment_scan_config": {
+    "auto_discover": true,
+    "track_session_visits": true,
+    "scan_patterns": [
+      "*-js-*",
+      "*-html-*",
+      "*-css-*",
+      "*-dom-*",
+      "*-project-*",
+      "*-security-*",
+      "*-portfolio-*"
+    ]
+  },
+  "weekly_review": {
+    "use_system_date": true,
+    "auto_trigger_on_sunday": true
+  },
+  "notes_structure": {
+    "daily_format": "YYYY-MM-DD.md",
+    "weekly_format": "WEEK-2026-W##.md",
+    "processed_notes_prefix": "[category]-[title].md"
+  }
+}
