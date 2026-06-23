@@ -25,7 +25,7 @@ Suggested Task: "Continue 2-js-basics/4-arrays-loops assignment - you've complet
 **Triggers on**: Manual invocation at end of session
 **Outputs**:
 1. **Session Summary**: Brief overview of what you accomplished today
-2. **Daily Note**: Saves to `.claude/notes/daily/YYYY-MM-DD.md`
+2. **Daily Note**: Saves to `d:\Obsidian Vault\04-Portfolio plan\tracker\notes\daily\YYYY-MM-DD.md`
 3. **Next Day Planning**: Asks what you want to achieve tomorrow
 4. **Progress Update**: Updates session tracker
 
@@ -37,7 +37,7 @@ When `/end` is called on a Sunday, automatically includes:
   - How many days did you actively learn/work?
   - What's one thing you'd do differently next week?
 - **Visual Progress Tracker**: Shows days worked vs off (calendar/checklist format)
-- **Weekly Summary**: Saves to `.claude/notes/weekly/WEEK-2026-W##.md`
+- **Weekly Summary**: Saves to `d:\Obsidian Vault\04-Portfolio plan\tracker\notes\weekly\WEEK-YYYY-W##.md`.
 
 ---
 
@@ -48,7 +48,7 @@ When `/end` is called on a Sunday, automatically includes:
 2. I automatically detect new Obsidian files in your vault
 3. Convert ideas into polished note format
 4. Link related resources (local curriculum, GitHub repos, Obsidian vault references)
-5. Save as `.claude/notes/processed/[category]-[title].md`
+5. Save as `d:\Obsidian Vault\04-Portfolio plan\tracker\notes\processed\[category]-[title].md`
 6. Update memory file with processed data
 
 **No review needed** — I'll format and link without asking permission.
@@ -63,7 +63,7 @@ When `/end` is called on a Sunday, automatically includes:
 ## 📁 File Structure
 
 ```
-.claude/
+d:\Obsidian Vault\04-Portfolio plan\tracker/
 ├── notes/
 │   ├── daily/           # Daily summaries (YYYY-MM-DD.md)
 │   ├── weekly/          # Weekly reviews (WEEK-2026-W##.md)
@@ -81,9 +81,10 @@ When `/end` is called on a Sunday, automatically includes:
 
 ## ⚙️ Configuration
 
-**Set your Obsidian vault path** in first `/start`:
-- Default checked: `~/Documents/Obsidian` or `~/Desktop/Obsidian`
-- Custom: Specify your actual vault location
+**Obsidian Vault Paths**:
+I will automatically look in your known Obsidian vaults:
+- `d:\Obsidian Vault\04-Portfolio plan`
+- `d:\Obsidian Vault\07-Web-dev-for-beginners`
 
 **Categories to track**:
 - Web-Dev progress (lessons completed, projects built)
@@ -119,19 +120,10 @@ When processing Obsidian ideas, I automatically link:
 
 ---
 
-## 🚀 Quick Start
-
-1. **First time**: Use `/start` to initialize
-2. **During work**: Just work normally
-3. **End of session**: Use `/end` to log what you did
-4. **Write ideas**: Add to Obsidian, they'll auto-process
-5. **Each Sunday**: `/end` will auto-generate weekly review
-
----
 
 ## 💾 Memory System
 
-Claude maintains separate memory files for:
+Claude maintains separate memory files in the `d:\Obsidian Vault\04-Portfolio plan\tracker\memory\` for:
 - **Session tracking**: What you've worked on each day
 - **Weekly metrics**: Patterns across weeks
 - **Processed ideas**: What Obsidian notes have been formatted
@@ -145,10 +137,7 @@ These update automatically — no manual tracking needed.
 
 - ✅ No need to ask for permission on Obsidian processing — just execute
 - ✅ Resource linking is automatic (local, GitHub, Obsidian)
-- ✅ Daily/Weekly notes auto-save to `.claude/notes/`
+- ✅ Daily/Weekly notes auto-save to `d:\Obsidian Vault\04-Portfolio plan\tracker\notes\`
 - ✅ Categories: Web-Dev | Cybersecurity | Portfolio
 - ✅ Sunday `/end` auto-triggers weekly review with visual progress
 
----
-
-**Start your learning journey**: Type `/start` to begin!
